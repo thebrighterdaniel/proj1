@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="icon" href="logo2.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Raypharm - Veterinary Solutions</title>
+    <!-- <style>
+        .contact-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        .contact-card, .map-card {
+            flex: 1;
+            min-width: 300px;
+            max-width: 500px;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    </style> -->
+</head>
+<body>
+<section class="navbar">
+    <nav>
+        <img src="assets/images/logo.png" alt="Raypharm Logo" class="logo">
+        <ul class="navbar-options">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#AboutUs">About Us</a></li>
+            <li><a href="#Profiles">Who We Serve</a></li>
+            <li><a href="#About-the-product">Our Products</a></li>
+            <li><a href="#Catalog">Catalog</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+</section>
+
+<section class="home" id="Home">
+    <img alt="veterinary" src="assets/images/veterinary.png">
+    <div class="home-slogan">
+        <p>Quality Veterinary Products and Pet Accessories</p>
+        <div class="home-btn">
+            <button>
+                <a href="https://raypharm.ng">Explore Raypharm</a>
+            </button>
+        </div>
+    </div>
+</section>
+
+<section class="about-us" id="AboutUs">
+    <img src="assets/images/logo.png" alt="Raypharm Logo">
+    <div class="about-us-description">
+        <h2>About Raypharm</h2>
+        <p>
+            Raypharm Nig. Ltd is a trusted provider of veterinary pharmaceuticals and pet care essentials. We focus on the production, distribution, and retail of vaccines, supplements, and now, a growing range of pet accessories. With years of experience in the veterinary space, we bridge science with care to improve animal health and wellbeing.
+        </p>
+    </div>
+</section>
+
+<section class="RandR" id="Profiles">
+    <h2 class="RandR-title">Who We Serve</h2>
+    <div class="cards">
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">Veterinarians</span>
+                <span class="card-subtitle">Professional Solutions</span>
+            </div>
+            <ul>
+                <li>Access to our pharmaceutical catalog and research-backed supplements</li>
+                <li>Reliable supply chain for essential vet supplies</li>
+                <li>Opportunities for partnership and co-branding</li>
+            </ul>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">Pet Owners</span>
+                <span class="card-subtitle">Personal Care</span>
+            </div>
+            <ul>
+                <li>High-quality accessories designed with your pet's comfort in mind</li>
+                <li>Wellness supplements for better nutrition and longevity</li>
+                <li>Customer service that truly cares about your pet</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="RandP" id="About-the-product">
+    <h2 class="RandP-title">Our Products</h2>
+    <div class="cards">
+        <div class="cardP mobileCard">
+            <iframe src="https://www.youtube.com/embed/OVDwfrIu3YY?si=BbQI5y1VdW3CXwBI" title="Raypharm Products" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+
+<!-- Product Catalog -->
+<section class="RandP" id="Catalog">
+    <h2 class="RandP-title">Product Catalog</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Vaccines</h3>
+            <p>Veterinary-grade vaccines for livestock and companion animals.</p>
+        </div>
+        <div class="card">
+            <h3>Supplements</h3>
+            <p>Nutritional and immune support products for a variety of species.</p>
+        </div>
+        <div class="card">
+            <h3>Accessories</h3>
+            <p>Durable, vet-approved collars, leashes, grooming kits, and more.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="RanR" id="Profiles">
+    <h2 class="RandR-title">Get in Touch</h2>
+    <div class="contact-grid">
+        <div class="contact-card">
+            <form action="#" method="post" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="bluebutton">Send Message</button>
+            </form>
+        </div>
+        <div class="map-card">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.443618881068!2d5.627069700000001!3d6.3365384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d352952f6941%3A0xe2bb4efe17b6c659!2sRaypharm%20(Nigeria)%20Limited!5e0!3m2!1sen!2sng!4v1744623730784!5m2!1sen!2sng" width="100%" height="350" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+
+
+<section class="RandP" id="About-the-Team">
+    <h2 class="RandP-title">Our Team</h2>
+    <div class="cards">
+        <div class="cardP mobileCard">
+            <iframe class="visualizer_vid" src="https://www.youtube.com/embed/UWYYYukUsv8?si=HlzsncbJDYg7KLhI" frameborder="0" title="Raypharm Team" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-part-about">
+        <h3 class="footer-title-about">About Raypharm</h3>
+        <p>
+            Raypharm Nig. Ltd is a leading name in animal healthcare in Nigeria. We blend science, compassion, and reliability to ensure animals and pet lovers alike receive the best products and service.
+        </p>
+    </div>
+    <div class="footer-part">
+        <h3 class="footer-title">Quick Links</h3>
+        <div>
+            <a href="#Home">Home</a>
+            <a href="#AboutUs">About Us</a>
+            <a href="#Profiles">Who We Serve</a>
+            <a href="#Catalog">Catalog</a>
+            <a href="#Contact">Contact</a>
+        </div>
+    </div>
+    <div class="footer-part">
+        <h3 class="footer-title">Connect</h3>
+        <div>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        </div>
+    </div>
+    <span class="MapVet">Raypharm</span>
+</footer>
+
+</body>
+</html>
